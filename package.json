@@ -1,0 +1,14 @@
+{
+	"author": "Voltaism",
+	"version": "1.0",
+        "onset_build": "1.2.2",
+        "server_scripts": [
+                "server/config.lua",
+                "server/vdebug.lua"
+        ],
+        "client_scripts": [
+                "client/cl_config.lua",
+                "client/cl_vdebug.lua"
+        ]
+
+}

@@ -161,7 +161,7 @@ AddEvent("OnRenderHUD", function()
           DrawText(modelidx-string.len("Modelid : " .. tostring(vehmodel)) * 3,modelidy - 60, "Modelid : " .. tostring(vehmodel))
        end
 
-       local vehmodelname = GetVehicleModelName(vehmodel)
+       local vehmodelname = GetVehicleModelName(v)
        if bmodelid then
           DrawText(modelidx-string.len("Model : " .. tostring(vehmodelname)) * 3,modelidy - 75, "Model : " .. tostring(vehmodelname))
        end
